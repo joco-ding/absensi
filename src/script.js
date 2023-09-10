@@ -5,6 +5,7 @@ function initAll() {
   const elButtonXls = elemenButton
   elButtonXls.id = "download-xlsx"
   elButtonXls.innerText = 'Buat Xlsx'
+  elemenRoot.appendChild(document.createTextNode(' '))
   elemenRoot.appendChild(elButtonXls)
 
   document.getElementById("download-xlsx").addEventListener("click", genXlsx)
